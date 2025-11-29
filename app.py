@@ -144,7 +144,7 @@ else:
         st.metric("Simulated Temp", f"{sim_input[0]:.1f} °F", delta=f"{sim_input[0]-t:.1f}")
         st.metric("Simulated Pressure", f"{sim_input[3]:.1f} hPa", delta=f"{sim_input[3]-p:.1f}")
         
-        st.info("The graph compares your custom AI model (Red) against the professional Open-Meteo forecast (Green/Dashed).")
+        st.info("The graph compares your ML model (Red) against the professional Open-Meteo forecast (Green/Dashed).")
 
     st.divider()
     cols = st.columns(6)
